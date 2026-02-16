@@ -504,6 +504,52 @@ section {
     color: var(--accent);
 }
 
+/* Clickable Project Card */
+.clickable-card {
+    cursor: pointer;
+    position: relative;
+}
+
+.clickable-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.clickable-card:hover::after {
+    border-color: var(--accent);
+}
+
+.clickable-card:hover {
+    transform: translateY(-15px);
+}
+
+.view-project-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: var(--gradient-3);
+    color: var(--primary);
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    display: inline-block;
+    width: 100%;
+}
+
+.clickable-card:hover .view-project-btn {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 229, 255, 0.4);
+}
+
 /* Education Section */
 .education-container {
     max-width: 1200px;

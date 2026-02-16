@@ -14,7 +14,7 @@ document.addEventListener('mousemove', (e) => {
 
 // Language Toggle
 const langToggle = document.getElementById('langToggle');
-let currentLang = 'ar';
+let currentLang = 'en'; // Default to English
 
 langToggle.addEventListener('click', () => {
     currentLang = currentLang === 'ar' ? 'en' : 'ar';
@@ -43,20 +43,8 @@ langToggle.addEventListener('click', () => {
     navLinks.forEach(link => {
         if (currentLang === 'en' && link.dataset.en) {
             link.textContent = link.dataset.en;
-        } else {
-            link.textContent = link.getAttribute('href').replace('#', '');
-            // Restore Arabic text
-            const href = link.getAttribute('href');
-            const arTexts = {
-                '#home': 'الرئيسية',
-                '#skills': 'المهارات',
-                '#education': 'التعليم',
-                '#projects': 'المشاريع',
-                '#contact': 'تواصل'
-            };
-            if (currentLang === 'ar') {
-                link.textContent = arTexts[href] || link.textContent;
-            }
+        } else if (currentLang === 'ar' && link.dataset.ar) {
+            link.textContent = link.dataset.ar;
         }
     });
 });

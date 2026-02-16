@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,33 +30,33 @@
     <nav>
         <div class="logo">MA</div>
         <ul class="nav-links">
-            <li><a href="#home" data-en="Home">الرئيسية</a></li>
-            <li><a href="#education" data-en="Education">التعليم</a></li>
-            <li><a href="#skills" data-en="Skills">المهارات</a></li>
-            <li><a href="#projects" data-en="Projects">المشاريع</a></li>
-            <li><a href="#contact" data-en="Contact">تواصل</a></li>
+            <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+            <li><a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+            <li><a href="#education" data-en="Education" data-ar="التعليم">Education</a></li>
+            <li><a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+            <li><a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a></li>
         </ul>
-        <button class="lang-toggle" id="langToggle">EN</button>
+        <button class="lang-toggle" id="langToggle">AR</button>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-content">
             <h1>
-                <span class="ar">محمد عبدالرحمن بن سعيد</span>
-                <span class="en" style="display: none;">Mohamed Abdulrhman Bin Saeed</span>
+                <span class="ar" style="display: none;">محمد عبدالرحمن بن سعيد</span>
+                <span class="en">Mohamed Abdulrhman Bin Saeed</span>
             </h1>
             <p class="subtitle">
-                <span class="ar">مهندس برمجيات | مطور واجهات أمامية | مصمم UX/UI</span>
-                <span class="en" style="display: none;">Software Engineer | Front-End Developer | UX/UI Designer</span>
+                <span class="ar" style="display: none;">مهندس برمجيات | مطور واجهات أمامية | مصمم UX/UI</span>
+                <span class="en">Software Engineer | Front-End Developer | UX/UI Designer</span>
             </p>
             <p class="description">
-                <span class="ar">
+                <span class="ar" style="display: none;">
                     مهندس برمجيات متخصص في تطوير الواجهات الأمامية وتصميم تجربة المستخدم، 
                     أجمع بين التنفيذ التقني ومبادئ التصميم المرتكز على المستخدم. 
                     خبرة في بناء تطبيقات ويب متجاوبة وتصميم تجارب رقمية بديهية.
                 </span>
-                <span class="en" style="display: none;">
+                <span class="en">
                     Software Engineer specializing in Front-End Development and UX/UI Design, 
                     combining technical execution with user-centered design principles. 
                     Experienced in building responsive web applications and designing intuitive digital experiences.
@@ -64,13 +64,110 @@
             </p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn btn-primary">
-                    <span class="ar">استعرض المشاريع</span>
-                    <span class="en" style="display: none;">View Projects</span>
+                    <span class="ar" style="display: none;">استعرض المشاريع</span>
+                    <span class="en">View Projects</span>
                 </a>
                 <a href="#contact" class="btn btn-secondary">
-                    <span class="ar">تواصل معي</span>
-                    <span class="en" style="display: none;">Contact Me</span>
+                    <span class="ar" style="display: none;">تواصل معي</span>
+                    <span class="en">Contact Me</span>
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title reveal">
+            <span class="ar" style="display: none;">المهارات التقنية</span>
+            <span class="en">Technical Skills</span>
+        </h2>
+        <p class="section-subtitle reveal">
+            <span class="ar" style="display: none;">مجموعة متنوعة من المهارات في البرمجة والتصميم</span>
+            <span class="en">Diverse Skills in Programming and Design</span>
+        </p>
+        
+        <div class="skills-grid">
+            <div class="skill-category reveal">
+                <h3>
+                    <span class="ar" style="display: none;">البرمجة والتطوير</span>
+                    <span class="en">Programming & Development</span>
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Flutter</span>
+                    <span class="skill-tag">Dart</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3>
+                    <span class="ar" style="display: none;">قواعد البيانات</span>
+                    <span class="en">Databases</span>
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Database Design</span>
+                    <span class="skill-tag">phpMyAdmin</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3>
+                    <span class="ar" style="display: none;">تصميم UX/UI</span>
+                    <span class="en">UX/UI Design</span>
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">User Research</span>
+                    <span class="skill-tag">Personas</span>
+                    <span class="skill-tag">User Flows</span>
+                    <span class="skill-tag">Wireframing</span>
+                    <span class="skill-tag">Prototyping</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Usability Testing</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3>
+                    <span class="ar" style="display: none;">الأدوات والمنصات</span>
+                    <span class="en">Tools & Platforms</span>
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Microsoft Azure</span>
+                    <span class="skill-tag">Android Studio</span>
+                    <span class="skill-tag">Canva</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3>
+                    <span class="ar" style="display: none;">منهجيات العمل</span>
+                    <span class="en">Methodologies</span>
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Agile</span>
+                    <span class="skill-tag">Scrum</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Team Collaboration</span>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3>
+                    <span class="ar" style="display: none;">اللغات</span>
+                    <span class="en">Languages</span>
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag ar">العربية (لغة أم)</span>
+                    <span class="skill-tag en" style="display: none;">Arabic (Native)</span>
+                    <span class="skill-tag">English (Professional)</span>
+                </div>
             </div>
         </div>
     </section>
@@ -78,12 +175,12 @@
     <!-- Education Section -->
     <section id="education">
         <h2 class="section-title reveal">
-            <span class="ar">التعليم والمؤهلات</span>
-            <span class="en" style="display: none;">Education & Qualifications</span>
+            <span class="ar" style="display: none;">التعليم والمؤهلات</span>
+            <span class="en">Education & Qualifications</span>
         </h2>
         <p class="section-subtitle reveal">
-            <span class="ar">رحلتي الأكاديمية في مجال التقنية</span>
-            <span class="en" style="display: none;">My Academic Journey in Technology</span>
+            <span class="ar" style="display: none;">رحلتي الأكاديمية في مجال التقنية</span>
+            <span class="en">My Academic Journey in Technology</span>
         </p>
 
         <div class="education-container">
@@ -91,20 +188,20 @@
                 <div class="education-icon">🎓</div>
                 <div class="education-content">
                     <h3>
-                        <span class="ar">بكالوريوس هندسة البرمجة وتطوير الويب</span>
-                        <span class="en" style="display: none;">Bachelor's Degree - Software Engineering & Web Development</span>
+                        <span class="ar" style="display: none;">بكالوريوس هندسة البرمجة وتطوير الويب</span>
+                        <span class="en">Bachelor's Degree - Software Engineering & Web Development</span>
                     </h3>
                     <p class="education-institution">
-                        <span class="ar">كلية التقنية - بريدة، المملكة العربية السعودية</span>
-                        <span class="en" style="display: none;">College of Technology - Buraidah, Saudi Arabia</span>
+                        <span class="ar" style="display: none;">كلية التقنية - بريدة، المملكة العربية السعودية</span>
+                        <span class="en">College of Technology - Buraidah, Saudi Arabia</span>
                     </p>
                     <div class="education-gpa">
-                        <span class="ar">المعدل التراكمي: 4.3 / 5.0</span>
-                        <span class="en" style="display: none;">GPA: 4.3 / 5.0</span>
+                        <span class="ar" style="display: none;">المعدل التراكمي: 4.3 / 5.0</span>
+                        <span class="en">GPA: 4.3 / 5.0</span>
                     </div>
                     <p class="education-year">
-                        <span class="ar">سنة التخرج: 2025</span>
-                        <span class="en" style="display: none;">Graduation Year: 2025</span>
+                        <span class="ar" style="display: none;">سنة التخرج: 2025</span>
+                        <span class="en">Graduation Year: 2025</span>
                     </p>
                 </div>
             </div>
@@ -113,34 +210,28 @@
                 <div class="education-icon">💻</div>
                 <div class="education-content">
                     <h3>
-                        <span class="ar">دبلوم برمجة الحاسب</span>
-                        <span class="en" style="display: none;">Diploma - Computer Programming</span>
+                        <span class="ar" style="display: none;">دبلوم برمجة الحاسب</span>
+                        <span class="en">Diploma - Computer Programming</span>
                     </h3>
                     <p class="education-institution">
-                        <span class="ar">كلية التقنية - ثادق، المملكة العربية السعودية</span>
-                        <span class="en" style="display: none;">College of Technology - Thadiq, Saudi Arabia</span>
+                        <span class="ar" style="display: none;">كلية التقنية - ثادق، المملكة العربية السعودية</span>
+                        <span class="en">College of Technology - Thadiq, Saudi Arabia</span>
                     </p>
                     <div class="education-gpa">
-                        <span class="ar">المعدل التراكمي: 4.95 / 5.0</span>
-                        <span class="en" style="display: none;">GPA: 4.95 / 5.0</span>
+                        <span class="ar" style="display: none;">المعدل التراكمي: 4.95 / 5.0</span>
+                        <span class="en">GPA: 4.95 / 5.0</span>
                     </div>
-                    <p class="education-year">
-                        <span class="ar">سنة التخرج: 2022</span>
-                        <span class="en" style="display: none;">Graduation Year: 2022</span>
-                    </p>
-   
-
                     <p class="education-description">
-                        <span class="ar">بداية رحلتي في عالم البرمجة والتطوير</span>
-                        <span class="en" style="display: none;">The beginning of my journey in programming and development</span>
+                        <span class="ar" style="display: none;">بداية رحلتي في عالم البرمجة والتطوير</span>
+                        <span class="en">The beginning of my journey in programming and development</span>
                     </p>
                 </div>
             </div>
 
             <div class="education-highlights reveal">
                 <h3>
-                    <span class="ar">المواد والمهارات المكتسبة</span>
-                    <span class="en" style="display: none;">Acquired Skills & Courses</span>
+                    <span class="ar" style="display: none;">المواد والمهارات المكتسبة</span>
+                    <span class="en">Acquired Skills & Courses</span>
                 </h3>
                 <div class="education-skills">
                     <div class="education-skill-item">
@@ -172,181 +263,84 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2 class="section-title reveal">
-            <span class="ar">المهارات التقنية</span>
-            <span class="en" style="display: none;">Technical Skills</span>
-        </h2>
-        <p class="section-subtitle reveal">
-            <span class="ar">مجموعة متنوعة من المهارات في البرمجة والتصميم</span>
-            <span class="en" style="display: none;">Diverse Skills in Programming and Design</span>
-        </p>
-        
-        <div class="skills-grid">
-            <div class="skill-category reveal">
-                <h3>
-                    <span class="ar">البرمجة والتطوير</span>
-                    <span class="en" style="display: none;">Programming & Development</span>
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">HTML5</span>
-                    <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">PHP</span>
-                    <span class="skill-tag">Flutter</span>
-                    <span class="skill-tag">Dart</span>
-                    <span class="skill-tag">Java</span>
-                    <span class="skill-tag">Python</span>
-                </div>
-            </div>
-
-            <div class="skill-category reveal">
-                <h3>
-                    <span class="ar">قواعد البيانات</span>
-                    <span class="en" style="display: none;">Databases</span>
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">SQL</span>
-                    <span class="skill-tag">Database Design</span>
-                    <span class="skill-tag">phpMyAdmin</span>
-                </div>
-            </div>
-
-            <div class="skill-category reveal">
-                <h3>
-                    <span class="ar">تصميم UX/UI</span>
-                    <span class="en" style="display: none;">UX/UI Design</span>
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">User Research</span>
-                    <span class="skill-tag">Personas</span>
-                    <span class="skill-tag">User Flows</span>
-                    <span class="skill-tag">Wireframing</span>
-                    <span class="skill-tag">Prototyping</span>
-                    <span class="skill-tag">Figma</span>
-                    <span class="skill-tag">Usability Testing</span>
-                </div>
-            </div>
-
-            <div class="skill-category reveal">
-                <h3>
-                    <span class="ar">الأدوات والمنصات</span>
-                    <span class="en" style="display: none;">Tools & Platforms</span>
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">Microsoft Azure</span>
-                    <span class="skill-tag">Android Studio</span>
-                    <span class="skill-tag">Canva</span>
-                    <span class="skill-tag">Git</span>
-                </div>
-            </div>
-
-            <div class="skill-category reveal">
-                <h3>
-                    <span class="ar">منهجيات العمل</span>
-                    <span class="en" style="display: none;">Methodologies</span>
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">Agile</span>
-                    <span class="skill-tag">Scrum</span>
-                    <span class="skill-tag">Responsive Design</span>
-                    <span class="skill-tag">Problem Solving</span>
-                    <span class="skill-tag">Team Collaboration</span>
-                </div>
-            </div>
-
-            <div class="skill-category reveal">
-                <h3>
-                    <span class="ar">اللغات</span>
-                    <span class="en" style="display: none;">Languages</span>
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag ar">العربية (لغة أم)</span>
-                    <span class="skill-tag en" style="display: none;">Arabic (Native)</span>
-                    <span class="skill-tag">English (Professional)</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Projects Section -->
     <section id="projects">
         <h2 class="section-title reveal">
-            <span class="ar">المشاريع المميزة</span>
-            <span class="en" style="display: none;">Featured Projects</span>
+            <span class="ar" style="display: none;">المشاريع المميزة</span>
+            <span class="en">Featured Projects</span>
         </h2>
         <p class="section-subtitle reveal">
-            <span class="ar">مشاريع تجمع بين التصميم والبرمجة</span>
-            <span class="en" style="display: none;">Projects Combining Design and Development</span>
+            <span class="ar" style="display: none;">مشاريع تجمع بين التصميم والبرمجة</span>
+            <span class="en">Projects Combining Design and Development</span>
         </p>
 
         <div class="projects-container">
             <div class="project-card reveal">
                 <div class="project-content">
                     <span class="project-type">
-                        <span class="ar">مشروع التخرج</span>
-                        <span class="en" style="display: none;">Graduation Project</span>
+                        <span class="ar" style="display: none;">مشروع التخرج</span>
+                        <span class="en">Graduation Project</span>
                     </span>
                     <h3>
-                        <span class="ar">منصة تبادل وتأجير الكتب</span>
-                        <span class="en" style="display: none;">Book Exchange & Rental Platform</span>
+                        <span class="ar" style="display: none;">منصة تبادل وتأجير الكتب</span>
+                        <span class="en">Book Exchange & Rental Platform</span>
                     </h3>
                     <p>
-                        <span class="ar">
+                        <span class="ar" style="display: none;">
                             منصة رقمية متكاملة لتأجير وتبادل الكتب، تم تطويرها باستخدام تقنيات Full-Stack
                             مع التركيز على تجربة المستخدم والأداء.
                         </span>
-                        <span class="en" style="display: none;">
+                        <span class="en">
                             A comprehensive digital platform for renting and exchanging books, developed using Full-Stack 
                             technologies with a focus on user experience and performance.
                         </span>
                     </p>
                     <ul class="project-highlights">
                         <li>
-                            <span class="ar">تخطيط هيكل تجربة المستخدم وتدفقات الاستخدام</span>
-                            <span class="en" style="display: none;">Planned UX structure and user flows</span>
+                            <span class="ar" style="display: none;">تخطيط هيكل تجربة المستخدم وتدفقات الاستخدام</span>
+                            <span class="en">Planned UX structure and user flows</span>
                         </li>
                         <li>
-                            <span class="ar">تصميم وتطوير واجهات أمامية متجاوبة</span>
-                            <span class="en" style="display: none;">Designed and developed responsive front-end interfaces</span>
+                            <span class="ar" style="display: none;">تصميم وتطوير واجهات أمامية متجاوبة</span>
+                            <span class="en">Designed and developed responsive front-end interfaces</span>
                         </li>
                         <li>
-                            <span class="ar">بناء منطق الخادم وقاعدة البيانات باستخدام PHP و SQL</span>
-                            <span class="en" style="display: none;">Built backend logic and database using PHP & SQL</span>
+                            <span class="ar" style="display: none;">بناء منطق الخادم وقاعدة البيانات باستخدام PHP و SQL</span>
+                            <span class="en">Built backend logic and database using PHP & SQL</span>
                         </li>
                         <li>
-                            <span class="ar">دمج اعتبارات تجربة المستخدم في التنفيذ التقني</span>
-                            <span class="en" style="display: none;">Integrated UX considerations into technical implementation</span>
+                            <span class="ar" style="display: none;">دمج اعتبارات تجربة المستخدم في التنفيذ التقني</span>
+                            <span class="en">Integrated UX considerations into technical implementation</span>
                         </li>
                     </ul>
                     <div class="project-result">
                         <strong>
-                            <span class="ar">النتيجة:</span>
-                            <span class="en" style="display: none;">Result:</span>
+                            <span class="ar" style="display: none;">النتيجة:</span>
+                            <span class="en">Result:</span>
                         </strong>
-                        <span class="ar"> منصة متكاملة وظيفيًا تُظهر تصميم النظام، تنفيذ الواجهة، ودمج الخادم.</span>
-                        <span class="en" style="display: none;"> Fully functional platform demonstrating system design, UI implementation, and backend integration.</span>
+                        <span class="ar" style="display: none;"> منصة متكاملة وظيفيًا تُظهر تصميم النظام، تنفيذ الواجهة، ودمج الخادم.</span>
+                        <span class="en"> Fully functional platform demonstrating system design, UI implementation, and backend integration.</span>
                     </div>
                 </div>
             </div>
 
-            <div class="project-card reveal">
+            <div class="project-card reveal clickable-card" onclick="window.open('https://www.figma.com/design/l861eOoECehmi4qoDhJ870/Summaries-App-%E2%80%93-UX-UI-Design--Student-Notes-Platform-?node-id=0-1&t=I4TTbRpOJ19jMGXK-1', '_blank')">
                 <div class="project-content">
                     <span class="project-type">
-                        <span class="ar">UX Bootcamp - أكاديمية طويق</span>
-                        <span class="en" style="display: none;">UX Bootcamp - Tuwaiq Academy</span>
+                        <span class="ar" style="display: none;">UX Bootcamp - أكاديمية طويق</span>
+                        <span class="en">UX Bootcamp - Tuwaiq Academy</span>
                     </span>
                     <h3>
-                        <span class="ar">تطبيق مشاركة الملخصات الطلابية</span>
-                        <span class="en" style="display: none;">Student Summary Sharing App</span>
+                        <span class="ar" style="display: none;">تطبيق مشاركة الملخصات الطلابية</span>
+                        <span class="en">Student Summary Sharing App</span>
                     </h3>
                     <p>
-                        <span class="ar">
+                        <span class="ar" style="display: none;">
                             دراسة حالة UX/UI لتطبيق جوال يمكّن الطلاب من إنشاء ومشاركة الملخصات الدراسية.
                             جاءت الفكرة لتقليل هدر الجهد للطلاب، بحيث لا يحذفون الملخصات التي لخصوها عند التخرج،
                             بل يشاركونها مع الطلاب الجدد للاستفادة منها.
                         </span>
-                        <span class="en" style="display: none;">
+                        <span class="en">
                             A UX/UI case study for a mobile app enabling students to create and share study summaries.
                             The idea came to reduce student effort waste, so they don't delete their summaries after graduation,
                             but share them with new students to benefit from them.
@@ -354,29 +348,33 @@
                     </p>
                     <ul class="project-highlights">
                         <li>
-                            <span class="ar">إجراء مقابلات وأبحاث مع المستخدمين</span>
-                            <span class="en" style="display: none;">Conducted user interviews and research</span>
+                            <span class="ar" style="display: none;">إجراء مقابلات وأبحاث مع المستخدمين</span>
+                            <span class="en">Conducted user interviews and research</span>
                         </li>
                         <li>
-                            <span class="ar">بناء الشخصيات، خرائط الرحلة، وهندسة المعلومات</span>
-                            <span class="en" style="display: none;">Built personas, journey maps, and information architecture</span>
+                            <span class="ar" style="display: none;">بناء الشخصيات، خرائط الرحلة، وهندسة المعلومات</span>
+                            <span class="en">Built personas, journey maps, and information architecture</span>
                         </li>
                         <li>
-                            <span class="ar">تصميم إطارات سلكية ونماذج تفاعلية عالية الدقة في Figma</span>
-                            <span class="en" style="display: none;">Designed wireframes and high-fidelity prototypes in Figma</span>
+                            <span class="ar" style="display: none;">تصميم إطارات سلكية ونماذج تفاعلية عالية الدقة في Figma</span>
+                            <span class="en">Designed wireframes and high-fidelity prototypes in Figma</span>
                         </li>
                         <li>
-                            <span class="ar">إجراء اختبارات قابلية الاستخدام والتحسينات المتكررة</span>
-                            <span class="en" style="display: none;">Performed usability testing and iterative improvements</span>
+                            <span class="ar" style="display: none;">إجراء اختبارات قابلية الاستخدام والتحسينات المتكررة</span>
+                            <span class="en">Performed usability testing and iterative improvements</span>
                         </li>
                     </ul>
                     <div class="project-result">
                         <strong>
-                            <span class="ar">النتيجة:</span>
-                            <span class="en" style="display: none;">Result:</span>
+                            <span class="ar" style="display: none;">النتيجة:</span>
+                            <span class="en">Result:</span>
                         </strong>
-                        <span class="ar"> حل UX مبني على البحث ومتوافق مع احتياجات المستخدمين الفعلية، يساهم في تقليل هدر الجهد الطلابي.</span>
-                        <span class="en" style="display: none;"> Research-driven UX solution aligned with real user needs, contributing to reducing student effort waste.</span>
+                        <span class="ar" style="display: none;"> حل UX مبني على البحث ومتوافق مع احتياجات المستخدمين الفعلية، يساهم في تقليل هدر الجهد الطلابي.</span>
+                        <span class="en"> Research-driven UX solution aligned with real user needs, contributing to reducing student effort waste.</span>
+                    </div>
+                    <div class="view-project-btn">
+                        <span class="ar" style="display: none;">👁️ عرض المشروع في Figma</span>
+                        <span class="en">👁️ View Project on Figma</span>
                     </div>
                 </div>
             </div>
@@ -386,20 +384,20 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title reveal">
-            <span class="ar">تواصل معي</span>
-            <span class="en" style="display: none;">Contact Me</span>
+            <span class="ar" style="display: none;">تواصل معي</span>
+            <span class="en">Contact Me</span>
         </h2>
         <p class="section-subtitle reveal">
-            <span class="ar">دعنا نعمل معًا على مشروعك القادم</span>
-            <span class="en" style="display: none;">Let's Work Together on Your Next Project</span>
+            <span class="ar" style="display: none;">دعنا نعمل معًا على مشروعك القادم</span>
+            <span class="en">Let's Work Together on Your Next Project</span>
         </p>
 
         <div class="contact-grid">
             <div class="contact-item reveal">
                 <div class="contact-icon">📧</div>
                 <h3>
-                    <span class="ar">البريد الإلكتروني</span>
-                    <span class="en" style="display: none;">Email</span>
+                    <span class="ar" style="display: none;">البريد الإلكتروني</span>
+                    <span class="en">Email</span>
                 </h3>
                 <a href="mailto:mwdeng1@gmail.com">mwdeng1@gmail.com</a>
             </div>
@@ -407,8 +405,8 @@
             <div class="contact-item reveal">
                 <div class="contact-icon">📱</div>
                 <h3>
-                    <span class="ar">الهاتف</span>
-                    <span class="en" style="display: none;">Phone</span>
+                    <span class="ar" style="display: none;">الهاتف</span>
+                    <span class="en">Phone</span>
                 </h3>
                 <a href="tel:+966509939693">+966 50 993 9693</a>
             </div>
@@ -416,12 +414,12 @@
             <div class="contact-item reveal">
                 <div class="contact-icon">📍</div>
                 <h3>
-                    <span class="ar">الموقع</span>
-                    <span class="en" style="display: none;">Location</span>
+                    <span class="ar" style="display: none;">الموقع</span>
+                    <span class="en">Location</span>
                 </h3>
                 <p>
-                    <span class="ar">الرياض، المملكة العربية السعودية</span>
-                    <span class="en" style="display: none;">Riyadh, Saudi Arabia</span>
+                    <span class="ar" style="display: none;">الرياض، المملكة العربية السعودية</span>
+                    <span class="en">Riyadh, Saudi Arabia</span>
                 </p>
             </div>
         </div>
@@ -430,12 +428,12 @@
     <!-- Footer -->
     <footer>
         <p>
-            <span class="ar">© 2025 محمد عبدالرحمن بن سعيد. جميع الحقوق محفوظة.</span>
-            <span class="en" style="display: none;">© 2025 Mohamed Abdulrhman Bin Saeed. All Rights Reserved.</span>
+            <span class="ar" style="display: none;">© 2025 محمد عبدالرحمن بن سعيد. جميع الحقوق محفوظة.</span>
+            <span class="en">© 2025 Mohamed Abdulrhman Bin Saeed. All Rights Reserved.</span>
         </p>
         <p style="margin-top: 1rem; color: var(--text-dim);">
-            <span class="ar">مهندس برمجيات متحمس للتحول الرقمي والابتكار</span>
-            <span class="en" style="display: none;">Software Engineer Passionate About Digital Transformation and Innovation</span>
+            <span class="ar" style="display: none;">مهندس برمجيات متحمس للتحول الرقمي والابتكار</span>
+            <span class="en">Software Engineer Passionate About Digital Transformation and Innovation</span>
         </p>
     </footer>
 
